@@ -1,0 +1,103 @@
+body {
+    background-image: url('../../../public/img/background.jpg');
+    padding: 0;
+    margin: 0;
+}
+
+/*Шапка сайта*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(73, 73, 169, 0.8);
+    padding: 5px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 60px;
+    font-family: 'Chakra Petch';
+    margin-left: 50px;
+    color: white;
+}
+
+header a {
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Lobster';
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+}
+
+/*Главная часть сайта*/
+.container {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border: 5px dashed rgba(73, 73, 169, 0.75);
+}
+
+.container .name {
+    padding: 20px;
+    font-family: 'Lobster';
+    font-size: 30px;
+}
+
+.container .team {
+    padding: 20px;
+    font-family: 'Lobster';
+    font-size: 30px;
+}
+
+input[type="text"] {
+    width: 250px;
+    font-size: 28px;
+    font-family: 'Lobster';
+    border: 2px solid black;
+    text-align: center;
+}
+
+select {
+    width: 250px;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Lobster';
+    border: 2px solid black;
+}
+
+#red {
+    color: Crimson;
+}
+
+#blue {
+    color: MediumSlateBlue;
+}
+
+.start_btn {
+    justify-self: end;
+}
+
+.start_btn a{
+    font-family: 'Lobster';
+    font-size: 30px;
+    padding: 21.5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(73, 73, 169, 0.75);
+}
+
+.start_btn a:hover{
+    background-color: rgba(73, 73, 169, 1);
+    transition: 0.1s;
+}
