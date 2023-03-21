@@ -1,7 +1,10 @@
 body {
-    background-image: url('../../../public/img/background.jpg');
     padding: 0;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Шапка сайта*/
@@ -88,7 +91,7 @@ select {
     justify-self: end;
 }
 
-.start_btn a{
+.start_btn div{
     font-family: 'Lobster';
     font-size: 30px;
     padding: 21.5px;
@@ -97,7 +100,7 @@ select {
     background-color: rgba(73, 73, 169, 0.75);
 }
 
-.start_btn a:hover{
+.start_btn div:hover{
     background-color: rgba(73, 73, 169, 1);
     transition: 0.1s;
 }
